@@ -4,8 +4,8 @@
 class Db{
     private $conn=null;
     private $config=[
-        "host"=>"61.153.61.242",
-        "info"=>["UID"=>"sa","PWD"=>"850813Ccy","Database"=>"ACCOUNT"]
+        "host"=>"127.0.0.10",
+        "info"=>["UID"=>"sa","PWD"=>"password","Database"=>"Database"]
         
     ];
     function __construct($config=[]) {
